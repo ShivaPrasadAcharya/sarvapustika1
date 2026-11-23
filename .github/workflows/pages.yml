@@ -1,0 +1,55 @@
+name: Publish sarvapustika1
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - name: Check out catalogue and files
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history, so each file's real updated date can be read
+      - name: Generate catalogue from Files folder
+        run: python3 scripts/build-index.py --site
+      - name: Save the refreshed files-index.js in the repository
+        run: |
+          if ! git diff --quiet -- files-index.js; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add files-index.js
+            git commit -m "Update files-index.js [skip ci]"
+            git push || (git pull --rebase && git push)
+          fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish public site
+        id: deployment
+        uses: actions/deploy-pages@v4

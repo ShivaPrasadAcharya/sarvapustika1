@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="15" fill="#2459d3"/>
+  <path d="M9 17h9a5 5 0 0 1 5 5v23a6 6 0 0 0-6-3H9V17Zm14 5a5 5 0 0 1 5-5h9v25h-9a6 6 0 0 0-6 3" fill="none" stroke="white" stroke-width="2.8" stroke-linejoin="round"/>
+  <text x="48" y="33" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" dominant-baseline="central">N</text>
+</svg>
