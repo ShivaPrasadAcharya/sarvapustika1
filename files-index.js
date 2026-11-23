@@ -8,7 +8,7 @@ window.RAYA_INDEX = {
       "extension": "jpg",
       "size": 420614,
       "updatedAt": "2026-11-23T21:54:04+05:45",
-      "remarks": ""
+      "remarks": "सम्बन्धविच्छेद"
     },
     {
       "path": "Files/images/dn131.20830803.raya1.jpg",
