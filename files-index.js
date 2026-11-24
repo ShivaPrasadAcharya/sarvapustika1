@@ -1,5 +1,5 @@
 window.RAYA_INDEX = {
-  "generatedAt": "2026-11-24T02:30:31.443489+00:00",
+  "generatedAt": "2026-11-24T15:26:52.665184+00:00",
   "files": [
     {
       "path": "Files/images/dn128.20830802.muddafirta.jpg",
@@ -109,6 +109,76 @@ window.RAYA_INDEX = {
       "size": 1353960,
       "updatedAt": "2026-11-23T21:54:04+05:45",
       "uploadedAt": "2026-11-23T21:54:04+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn136.20830808.milapatra.jpg",
+      "folder": "images",
+      "name": "dn136.20830808.milapatra.jpg",
+      "extension": "jpg",
+      "size": 597711,
+      "updatedAt": "2026-11-24T21:11:36+05:45",
+      "uploadedAt": "2026-11-24T21:11:36+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn137.20830808.cover.jpg",
+      "folder": "images",
+      "name": "dn137.20830808.cover.jpg",
+      "extension": "jpg",
+      "size": 1025492,
+      "updatedAt": "2026-11-24T21:11:36+05:45",
+      "uploadedAt": "2026-11-24T21:11:36+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn137.20830808.raya.jpg",
+      "folder": "images",
+      "name": "dn137.20830808.raya.jpg",
+      "extension": "jpg",
+      "size": 562748,
+      "updatedAt": "2026-11-24T21:11:36+05:45",
+      "uploadedAt": "2026-11-24T21:11:36+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn138.20830808.cover.jpg",
+      "folder": "images",
+      "name": "dn138.20830808.cover.jpg",
+      "extension": "jpg",
+      "size": 1070025,
+      "updatedAt": "2026-11-24T21:11:36+05:45",
+      "uploadedAt": "2026-11-24T21:11:36+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn138.20830808.raya.jpg",
+      "folder": "images",
+      "name": "dn138.20830808.raya.jpg",
+      "extension": "jpg",
+      "size": 343458,
+      "updatedAt": "2026-11-24T21:11:36+05:45",
+      "uploadedAt": "2026-11-24T21:11:36+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn139.20830808.cover.jpg",
+      "folder": "images",
+      "name": "dn139.20830808.cover.jpg",
+      "extension": "jpg",
+      "size": 1038203,
+      "updatedAt": "2026-11-24T21:11:36+05:45",
+      "uploadedAt": "2026-11-24T21:11:36+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn139.20830808.raya.jpg",
+      "folder": "images",
+      "name": "dn139.20830808.raya.jpg",
+      "extension": "jpg",
+      "size": 1241821,
+      "updatedAt": "2026-11-24T21:11:36+05:45",
+      "uploadedAt": "2026-11-24T21:11:36+05:45",
       "remarks": ""
     }
   ]
