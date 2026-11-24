@@ -201,7 +201,7 @@
   }
   // Files whose first two name sections match (sections split by . - or _) share one row,
   // e.g. dn49.20830513.cover and dn49.20830513.raya.
-  function groupFiles(items) {
+  function groupFiles(items, sort) {
     const groups = new Map();
     for (const file of items) {
       const extensionStart = file.name.lastIndexOf('.');
@@ -211,10 +211,27 @@
       const category = stem.slice(prefix.length).replace(/^[._-]+/, '');
       const directory = file.path.split('/').slice(2, -1).join('/');
       const key = `${directory}\u0000${name.toLocaleLowerCase().replace(/[._-]+/g, '.')}`;
-      if (!groups.has(key)) groups.set(key, {name, directory, files: []});
-      groups.get(key).files.push({file, category});
+      if (!groups.has(key)) groups.set(key, {name, directory, files: [], size: 0, uploadedAt: null});
+      const group = groups.get(key);
+      group.files.push({file, category});
+      if (Number.isFinite(file.size)) group.size += file.size;
+      const uploadedAt = Date.parse(file.uploadedAt);
+      if (Number.isFinite(uploadedAt) && (group.uploadedAt === null || uploadedAt > group.uploadedAt)) {
+        group.uploadedAt = uploadedAt;
+      }
     }
-    return [...groups.values()];
+    const rows = [...groups.values()];
+    if (sort.startsWith('size-') || sort.startsWith('upload-')) {
+      const field = sort.startsWith('size-') ? 'size' : 'uploadedAt';
+      const direction = sort.endsWith('-asc') ? 1 : -1;
+      rows.sort((a, b) => {
+        if (a[field] === b[field]) return 0;
+        if (a[field] === null) return 1;
+        if (b[field] === null) return -1;
+        return direction * (a[field] - b[field]);
+      });
+    }
+    return rows;
   }
   function variantLabel(entry) {
     const extension = entry.file.extension.toUpperCase();
@@ -237,10 +254,9 @@
       type.setAttribute('aria-hidden','true'); nameGroup.append(type);
     }
     const titleGroup = element('div');titleGroup.append(element('span','file-title',grouped?fileGroup.name:file.name));
-    const sizes = entries.reduce((sum, entry) => sum + (Number.isFinite(entry.file.size) ? entry.file.size : 0), 0);
     const variants = entries.map(variantLabel).join(' · ');
     const latest = entries.map(entry => entry.file.updatedAt).filter(value => !Number.isNaN(new Date(value).valueOf())).sort().pop();
-    const groupMeta = [bytes(sizes), shortDate(latest)].filter(Boolean).join(' · ');
+    const groupMeta = [bytes(fileGroup.size), shortDate(latest)].filter(Boolean).join(' · ');
     titleGroup.append(element('span','file-meta',grouped?[variants,groupMeta,fileGroup.directory].filter(Boolean).join(' · '):[sizeAndDate(file),fileGroup.directory].filter(Boolean).join(' · ')));
     nameGroup.append(titleGroup);nameCell.append(nameGroup);
     const linkCell=element('td','link-cell');
@@ -271,7 +287,7 @@
     tr.append(sn,folderCell,nameCell,linkCell,remarksCell);return tr;
   }
   function render() {
-    state.filtered=getFiltered();const n=state.filtered.length,groups=groupFiles(state.filtered),rowCount=groups.length,size=Number($('page-size').value),pages=Math.max(1,Math.ceil(rowCount/size));state.page=Math.min(state.page,pages);
+    state.filtered=getFiltered();const n=state.filtered.length,groups=groupFiles(state.filtered, $('sort').value),rowCount=groups.length,size=Number($('page-size').value),pages=Math.max(1,Math.ceil(rowCount/size));state.page=Math.min(state.page,pages);
     const start=(state.page-1)*size,end=Math.min(start+size,rowCount),fragment=document.createDocumentFragment();
     for(let i=start;i<end;i++)fragment.append(row(groups[i],i+1));$('file-rows').replaceChildren(fragment);
     const folder=folders.find(f=>f.key===state.folder);$('view-title').textContent=folder.label;

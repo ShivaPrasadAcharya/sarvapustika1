@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FOLDERS = ('pdf', 'images', 'docs', 'spreadsheet', 'powerpoints', 'video')
 ROOT_FOLDER = 'root'  # files placed directly inside Files/
 SYSTEM_NAMES = {'thumbs.db', 'desktop.ini', '.ds_store', 'readme.txt.placeholder'}
-AUTO_KEYS = ('path', 'folder', 'name', 'extension', 'size', 'updatedAt')
+AUTO_KEYS = ('path', 'folder', 'name', 'extension', 'size', 'updatedAt', 'uploadedAt')
 
 
 def read_previous():
@@ -39,12 +39,12 @@ def read_previous():
     return existing, previous
 
 
-def git_dates():
-    """Map 'Files/...' path -> ISO time of the last commit touching it (one git call)."""
+def git_dates(*options):
+    """Map 'Files/...' path -> ISO time of the newest matching commit."""
     dates = {}
     try:
         out = subprocess.run(
-            ['git', '-c', 'core.quotepath=off', 'log', '--format=@@%cI', '--name-only', '--', 'Files'],
+            ['git', '-c', 'core.quotepath=off', 'log', '--format=@@%cI', '--name-only', *options, '--', 'Files'],
             cwd=ROOT, capture_output=True, text=True, encoding='utf-8', check=True).stdout
     except (OSError, subprocess.CalledProcessError):
         return dates
@@ -81,6 +81,7 @@ def collect():
 def build():
     existing, previous = read_previous()
     dates = git_dates()
+    uploads = git_dates('--diff-filter=A', '--no-renames')
     files = []
     for folder, path in collect():
         if path.name.lower() in SYSTEM_NAMES:
@@ -91,7 +92,8 @@ def build():
         extra = existing.get(relative, {})
         entry = {'path': relative, 'folder': folder, 'name': path.name,
                  'extension': path.suffix.lstrip('.').lower(), 'size': stat.st_size,
-                 'updatedAt': updated, 'remarks': str(extra.get('remarks', ''))}
+                 'updatedAt': updated, 'uploadedAt': uploads.get(relative) or extra.get('uploadedAt') or updated,
+                 'remarks': str(extra.get('remarks', ''))}
         for key, value in extra.items():  # keep openText, downloadText and any other manual field
             if key not in AUTO_KEYS and key != 'remarks' and value not in (None, ''):
                 entry[key] = value
