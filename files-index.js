@@ -1,6 +1,16 @@
 window.RAYA_INDEX = {
-  "generatedAt": "2026-11-24T15:26:52.665184+00:00",
+  "generatedAt": "2026-11-25T01:59:48.778128+00:00",
   "files": [
+    {
+      "path": "Files/docs/abcourtwords.txt",
+      "folder": "docs",
+      "name": "abcourtwords.txt",
+      "extension": "txt",
+      "size": 337,
+      "updatedAt": "2026-11-25T01:59:39Z",
+      "uploadedAt": "2026-11-25T01:59:39Z",
+      "remarks": ""
+    },
     {
       "path": "Files/images/dn128.20830802.muddafirta.jpg",
       "folder": "images",
