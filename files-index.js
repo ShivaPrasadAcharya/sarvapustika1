@@ -1,5 +1,5 @@
 window.RAYA_INDEX = {
-  "generatedAt": "2026-11-25T01:59:48.778128+00:00",
+  "generatedAt": "2026-11-27T04:07:19.393184+00:00",
   "files": [
     {
       "path": "Files/docs/abcourtwords.txt",
@@ -189,6 +189,46 @@ window.RAYA_INDEX = {
       "size": 1241821,
       "updatedAt": "2026-11-24T21:11:36+05:45",
       "uploadedAt": "2026-11-24T21:11:36+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn140.20830810.cover.jpg",
+      "folder": "images",
+      "name": "dn140.20830810.cover.jpg",
+      "extension": "jpg",
+      "size": 802947,
+      "updatedAt": "2026-11-27T09:51:51+05:45",
+      "uploadedAt": "2026-11-27T09:51:51+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn140.20830810.raya.jpg",
+      "folder": "images",
+      "name": "dn140.20830810.raya.jpg",
+      "extension": "jpg",
+      "size": 324072,
+      "updatedAt": "2026-11-27T09:51:51+05:45",
+      "uploadedAt": "2026-11-27T09:51:51+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn141.20830810.cover.jpg",
+      "folder": "images",
+      "name": "dn141.20830810.cover.jpg",
+      "extension": "jpg",
+      "size": 1281640,
+      "updatedAt": "2026-11-27T09:51:51+05:45",
+      "uploadedAt": "2026-11-27T09:51:51+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn141.20830810.raya.jpg",
+      "folder": "images",
+      "name": "dn141.20830810.raya.jpg",
+      "extension": "jpg",
+      "size": 881054,
+      "updatedAt": "2026-11-27T09:51:51+05:45",
+      "uploadedAt": "2026-11-27T09:51:51+05:45",
       "remarks": ""
     }
   ]
