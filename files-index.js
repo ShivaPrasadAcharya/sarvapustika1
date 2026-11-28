@@ -1,5 +1,5 @@
 window.RAYA_INDEX = {
-  "generatedAt": "2026-11-28T05:51:52.471066+00:00",
+  "generatedAt": "2026-11-28T06:03:34.996336+00:00",
   "files": [
     {
       "path": "Files/docs/20830613.42.02.kha-1.docx",
@@ -19,6 +19,176 @@ window.RAYA_INDEX = {
       "size": 337,
       "updatedAt": "2026-11-25T01:59:39Z",
       "uploadedAt": "2026-11-25T01:59:39Z",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn01.20830212.बैकिङकसूर.चेकअनादर.दावीनपुग्ने.docx",
+      "folder": "docs",
+      "name": "dn01.20830212.बैकिङकसूर.चेकअनादर.दावीनपुग्ने.docx",
+      "extension": "docx",
+      "size": 22919,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn02.20830212.चेकलेनदेन.एकतर्फी.आंशिकदावीपुग्ने.docx",
+      "folder": "docs",
+      "name": "dn02.20830212.चेकलेनदेन.एकतर्फी.आंशिकदावीपुग्ने.docx",
+      "extension": "docx",
+      "size": 43713,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn03.20830213.42.चेकअनादर.दावीपुग्ने.docx",
+      "folder": "docs",
+      "name": "dn03.20830213.42.चेकअनादर.दावीपुग्ने.docx",
+      "extension": "docx",
+      "size": 45995,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn04.20830213.सवि.दावीनपुग्ने.केटावादी.फैसला.docx",
+      "folder": "docs",
+      "name": "dn04.20830213.सवि.दावीनपुग्ने.केटावादी.फैसला.docx",
+      "extension": "docx",
+      "size": 44505,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn05.20830219.बैकिङकसूर.चेक.दावीनपुग्ने.rtf",
+      "folder": "docs",
+      "name": "dn05.20830219.बैकिङकसूर.चेक.दावीनपुग्ने.rtf",
+      "extension": "rtf",
+      "size": 508853,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn06.20830222.लागुऔषध.tramadol.दावीपुग्ने.docx",
+      "folder": "docs",
+      "name": "dn06.20830222.लागुऔषध.tramadol.दावीपुग्ने.docx",
+      "extension": "docx",
+      "size": 50748,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn07.20830225.सम्बन्ध बिच्छेद दावी नपुग्ने.docx",
+      "folder": "docs",
+      "name": "dn07.20830225.सम्बन्ध बिच्छेद दावी नपुग्ने.docx",
+      "extension": "docx",
+      "size": 51800,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn08.20830227.बैकिङकसूर.दावीनपुग्ने.doc",
+      "folder": "docs",
+      "name": "dn08.20830227.बैकिङकसूर.दावीनपुग्ने.doc",
+      "extension": "doc",
+      "size": 67584,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn09.20830227.हायरपर्चेज.hirepurchase.आंशिकदावीपुग्ने.docx",
+      "folder": "docs",
+      "name": "dn09.20830227.हायरपर्चेज.hirepurchase.आंशिकदावीपुग्ने.docx",
+      "extension": "docx",
+      "size": 45526,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn124.20830720 लेनदेन. डिसमिस फैसला.doc",
+      "folder": "docs",
+      "name": "dn124.20830720 लेनदेन. डिसमिस फैसला.doc",
+      "extension": "doc",
+      "size": 33280,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn125.20830720.चेकअनादर. वादीले तारेख गुजारेकोले खारेजी फैसला.doc",
+      "folder": "docs",
+      "name": "dn125.20830720.चेकअनादर. वादीले तारेख गुजारेकोले खारेजी फैसला.doc",
+      "extension": "doc",
+      "size": 41472,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn46.sn02.crypto.doc",
+      "folder": "docs",
+      "name": "dn46.sn02.crypto.doc",
+      "extension": "doc",
+      "size": 26112,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn50.20830310.जग्गाखिचोला ठहर भएको.docx",
+      "folder": "docs",
+      "name": "dn50.20830310.जग्गाखिचोला ठहर भएको.docx",
+      "extension": "docx",
+      "size": 40633,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn53.20830322.निर्णयबदर.सुरूजाने.(PD).doc",
+      "folder": "docs",
+      "name": "dn53.20830322.निर्णयबदर.सुरूजाने.(PD).doc",
+      "extension": "doc",
+      "size": 135168,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn54.20830323.bankingoffence.दावीनपुग्ने.पूर्णपाठ.doc",
+      "folder": "docs",
+      "name": "dn54.20830323.bankingoffence.दावीनपुग्ने.पूर्णपाठ.doc",
+      "extension": "doc",
+      "size": 139264,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn55.20830324.चेक अनादर.पूर्णपाठ.doc",
+      "folder": "docs",
+      "name": "dn55.20830324.चेक अनादर.पूर्णपाठ.doc",
+      "extension": "doc",
+      "size": 139264,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/docs/dn89.20830615.कर्तव्यज्यान.दावीपुग्ने.घटिरायसहित.फैसला.doc",
+      "folder": "docs",
+      "name": "dn89.20830615.कर्तव्यज्यान.दावीपुग्ने.घटिरायसहित.फैसला.doc",
+      "extension": "doc",
+      "size": 181248,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
       "remarks": ""
     },
     {
@@ -282,6 +452,26 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
+      "path": "Files/images/dn54.20830323.bankingoffence.दावीनपुग्ने.राय.jpg",
+      "folder": "images",
+      "name": "dn54.20830323.bankingoffence.दावीनपुग्ने.राय.jpg",
+      "extension": "jpg",
+      "size": 568184,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/20830302.छोरासँग.भेटघाट.गर्न.दिनू.मनिषा.थापा.pdf",
+      "folder": "pdf",
+      "name": "20830302.छोरासँग.भेटघाट.गर्न.दिनू.मनिषा.थापा.pdf",
+      "extension": "pdf",
+      "size": 519530,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
       "path": "Files/pdf/CMS मा थुनुवा जनाउनू.pdf",
       "folder": "pdf",
       "name": "CMS मा थुनुवा जनाउनू.pdf",
@@ -289,6 +479,36 @@ window.RAYA_INDEX = {
       "size": 191218,
       "updatedAt": "2026-11-28T11:35:43+05:45",
       "uploadedAt": "2026-11-28T11:35:43+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/DN10_20830227_गालीबेइज्जति_आंशिकदावीपुग्ने_ममता राई.pdf",
+      "folder": "pdf",
+      "name": "DN10_20830227_गालीबेइज्जति_आंशिकदावीपुग्ने_ममता राई.pdf",
+      "extension": "pdf",
+      "size": 6236534,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/DN11_20830227_गालीबेइज्जति_आंशिकदावीपुग्ने_विकासमगर.pdf",
+      "folder": "pdf",
+      "name": "DN11_20830227_गालीबेइज्जति_आंशिकदावीपुग्ने_विकासमगर.pdf",
+      "extension": "pdf",
+      "size": 4415202,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/DN58_20830524_गालीबेइज्जति_खारेज_ऋषिधमला.pdf",
+      "folder": "pdf",
+      "name": "DN58_20830524_गालीबेइज्जति_खारेज_ऋषिधमला.pdf",
+      "extension": "pdf",
+      "size": 1285699,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
       "remarks": ""
     },
     {
@@ -302,6 +522,26 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
+      "path": "Files/pdf/dn01.20830212.बैकिङकसूर.चेकअनादर.दावीनपुग्ने.pdf",
+      "folder": "pdf",
+      "name": "dn01.20830212.बैकिङकसूर.चेकअनादर.दावीनपुग्ने.pdf",
+      "extension": "pdf",
+      "size": 670222,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn02.20830212.चेकलेनदेन.एकतर्फी.आंशिकदावीपुग्ने.pdf",
+      "folder": "pdf",
+      "name": "dn02.20830212.चेकलेनदेन.एकतर्फी.आंशिकदावीपुग्ने.pdf",
+      "extension": "pdf",
+      "size": 2645550,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
       "path": "Files/pdf/dn03-05.20830420.raya.pdf",
       "folder": "pdf",
       "name": "dn03-05.20830420.raya.pdf",
@@ -309,6 +549,46 @@ window.RAYA_INDEX = {
       "size": 5720195,
       "updatedAt": "2026-11-28T11:35:43+05:45",
       "uploadedAt": "2026-11-28T11:35:43+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn03.20830213.42.चेकअनादर.दावीपुग्ने.pdf",
+      "folder": "pdf",
+      "name": "dn03.20830213.42.चेकअनादर.दावीपुग्ने.pdf",
+      "extension": "pdf",
+      "size": 7047950,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn04.20830213.सवि.दावीनपुग्ने.केटावादी.फैसला.pdf",
+      "folder": "pdf",
+      "name": "dn04.20830213.सवि.दावीनपुग्ने.केटावादी.फैसला.pdf",
+      "extension": "pdf",
+      "size": 1833326,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn05.20830219.बैकिङकसूर.चेक.दावीनपुग्ने.pdf",
+      "folder": "pdf",
+      "name": "dn05.20830219.बैकिङकसूर.चेक.दावीनपुग्ने.pdf",
+      "extension": "pdf",
+      "size": 4098532,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn06.20830222.लागुऔषध.tramadol.दावीपुग्ने.pdf",
+      "folder": "pdf",
+      "name": "dn06.20830222.लागुऔषध.tramadol.दावीपुग्ने.pdf",
+      "extension": "pdf",
+      "size": 3100534,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
       "remarks": ""
     },
     {
@@ -332,6 +612,16 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
+      "path": "Files/pdf/dn07.20830225.सम्बन्ध बिच्छेद दावी नपुग्ने.pdf",
+      "folder": "pdf",
+      "name": "dn07.20830225.सम्बन्ध बिच्छेद दावी नपुग्ने.pdf",
+      "extension": "pdf",
+      "size": 561024,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
       "path": "Files/pdf/dn08-09.20830421.raya.pdf",
       "folder": "pdf",
       "name": "dn08-09.20830421.raya.pdf",
@@ -342,6 +632,16 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
+      "path": "Files/pdf/dn08.20830227.बैकिङकसूर.दावीनपुग्ने.pdf",
+      "folder": "pdf",
+      "name": "dn08.20830227.बैकिङकसूर.दावीनपुग्ने.pdf",
+      "extension": "pdf",
+      "size": 3487856,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
       "path": "Files/pdf/dn09-10.20830421.start.kasur.pdf",
       "folder": "pdf",
       "name": "dn09-10.20830421.start.kasur.pdf",
@@ -349,6 +649,16 @@ window.RAYA_INDEX = {
       "size": 4739451,
       "updatedAt": "2026-11-28T11:35:43+05:45",
       "uploadedAt": "2026-11-28T11:35:43+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn09.20830227.हायरपर्चेज.hirepurchase.आंशिकदावीपुग्ने.pdf",
+      "folder": "pdf",
+      "name": "dn09.20830227.हायरपर्चेज.hirepurchase.आंशिकदावीपुग्ने.pdf",
+      "extension": "pdf",
+      "size": 4810041,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
       "remarks": ""
     },
     {
@@ -732,6 +1042,16 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
+      "path": "Files/pdf/dn44.20830504.fullfaishala.pdf",
+      "folder": "pdf",
+      "name": "dn44.20830504.fullfaishala.pdf",
+      "extension": "pdf",
+      "size": 2998894,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
       "path": "Files/pdf/dn45-46.20830510.start.raya.pdf",
       "folder": "pdf",
       "name": "dn45-46.20830510.start.raya.pdf",
@@ -822,6 +1142,16 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
+      "path": "Files/pdf/dn46.sn02.crypto.pdf",
+      "folder": "pdf",
+      "name": "dn46.sn02.crypto.pdf",
+      "extension": "pdf",
+      "size": 2,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
       "path": "Files/pdf/dn47.20830510.cover.pdf",
       "folder": "pdf",
       "name": "dn47.20830510.cover.pdf",
@@ -872,6 +1202,16 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
+      "path": "Files/pdf/dn49.20830310.लागूऔषधसेवन.दावीपुग्ने.fullfaishala.pdf",
+      "folder": "pdf",
+      "name": "dn49.20830310.लागूऔषधसेवन.दावीपुग्ने.fullfaishala.pdf",
+      "extension": "pdf",
+      "size": 3820105,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
       "path": "Files/pdf/dn49.20830511.cover.pdf",
       "folder": "pdf",
       "name": "dn49.20830511.cover.pdf",
@@ -889,6 +1229,16 @@ window.RAYA_INDEX = {
       "size": 954391,
       "updatedAt": "2026-11-28T11:35:43+05:45",
       "uploadedAt": "2026-11-28T11:35:43+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn50.20830310.जग्गाखिचोला ठहर भएको.pdf",
+      "folder": "pdf",
+      "name": "dn50.20830310.जग्गाखिचोला ठहर भएको.pdf",
+      "extension": "pdf",
+      "size": 4512139,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
       "remarks": ""
     },
     {
@@ -922,6 +1272,16 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
+      "path": "Files/pdf/dn52.20830319.करारक्षतिपूर्ति.आंशिक.fullfaishala.pdf",
+      "folder": "pdf",
+      "name": "dn52.20830319.करारक्षतिपूर्ति.आंशिक.fullfaishala.pdf",
+      "extension": "pdf",
+      "size": 9029173,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
       "path": "Files/pdf/dn53.20830309.raya.pdf",
       "folder": "pdf",
       "name": "dn53.20830309.raya.pdf",
@@ -939,6 +1299,16 @@ window.RAYA_INDEX = {
       "size": 4610725,
       "updatedAt": "2026-11-28T11:35:43+05:45",
       "uploadedAt": "2026-11-28T11:35:43+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn53.20830322.निर्णयबदर.सुरूजाने.(PD).pdf",
+      "folder": "pdf",
+      "name": "dn53.20830322.निर्णयबदर.सुरूजाने.(PD).pdf",
+      "extension": "pdf",
+      "size": 7750771,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
       "remarks": ""
     },
     {
@@ -962,6 +1332,36 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
+      "path": "Files/pdf/dn54.20830323.bankingoffence.raya.pdf",
+      "folder": "pdf",
+      "name": "dn54.20830323.bankingoffence.raya.pdf",
+      "extension": "pdf",
+      "size": 569322,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn54.20830323.bankingoffence.दावीनपुग्ने.pdf",
+      "folder": "pdf",
+      "name": "dn54.20830323.bankingoffence.दावीनपुग्ने.pdf",
+      "extension": "pdf",
+      "size": 3147584,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn54.20830323.bankingoffence.दावीनपुग्ने.पूर्णपाठ.pdf",
+      "folder": "pdf",
+      "name": "dn54.20830323.bankingoffence.दावीनपुग्ने.पूर्णपाठ.pdf",
+      "extension": "pdf",
+      "size": 3020948,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
       "path": "Files/pdf/dn54.20830323.cover.pdf",
       "folder": "pdf",
       "name": "dn54.20830323.cover.pdf",
@@ -979,6 +1379,16 @@ window.RAYA_INDEX = {
       "size": 5046629,
       "updatedAt": "2026-11-28T11:35:43+05:45",
       "uploadedAt": "2026-11-28T11:35:43+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/dn55.20830324.चेक अनादर.पूर्णपाठ.pdf",
+      "folder": "pdf",
+      "name": "dn55.20830324.चेक अनादर.पूर्णपाठ.pdf",
+      "extension": "pdf",
+      "size": 3398963,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
       "remarks": ""
     },
     {
@@ -1262,6 +1672,16 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
+      "path": "Files/pdf/dn89.20830615.कर्तव्यज्यान.दावीपुग्ने.घटिरायसहित.फैसला.pdf",
+      "folder": "pdf",
+      "name": "dn89.20830615.कर्तव्यज्यान.दावीपुग्ने.घटिरायसहित.फैसला.pdf",
+      "extension": "pdf",
+      "size": 8540054,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
+      "remarks": ""
+    },
+    {
       "path": "Files/pdf/dn90.20830620.cover.pdf",
       "folder": "pdf",
       "name": "dn90.20830620.cover.pdf",
@@ -1309,6 +1729,16 @@ window.RAYA_INDEX = {
       "size": 2698669,
       "updatedAt": "2026-11-28T11:35:43+05:45",
       "uploadedAt": "2026-11-28T11:35:43+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/pdf/नक्सा मुचुल्का गर्ने आदेश .pdf",
+      "folder": "pdf",
+      "name": "नक्सा मुचुल्का गर्ने आदेश .pdf",
+      "extension": "pdf",
+      "size": 481329,
+      "updatedAt": "2026-11-28T11:47:56+05:45",
+      "uploadedAt": "2026-11-28T11:47:56+05:45",
       "remarks": ""
     }
   ]
