@@ -1,5 +1,5 @@
 window.RAYA_INDEX = {
-  "generatedAt": "2026-11-28T14:09:23.043402+00:00",
+  "generatedAt": "2026-11-28T15:53:52.442274+00:00",
   "files": [
     {
       "path": "Files/docs/20830613.42.02.kha-1.docx",
@@ -219,6 +219,46 @@ window.RAYA_INDEX = {
       "size": 527928,
       "updatedAt": "2026-11-28T11:35:43+05:45",
       "uploadedAt": "2026-11-28T11:35:43+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn126.20830801.raya1.jpg",
+      "folder": "images",
+      "name": "dn126.20830801.raya1.jpg",
+      "extension": "jpg",
+      "size": 321996,
+      "updatedAt": "2026-11-28T21:38:32+05:45",
+      "uploadedAt": "2026-11-28T21:38:32+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn126.20830801.raya2.jpg",
+      "folder": "images",
+      "name": "dn126.20830801.raya2.jpg",
+      "extension": "jpg",
+      "size": 163702,
+      "updatedAt": "2026-11-28T21:38:32+05:45",
+      "uploadedAt": "2026-11-28T21:38:32+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn126.20830801.अभद्र व्यवहार.दावी पुग्ने.cover.jpg",
+      "folder": "images",
+      "name": "dn126.20830801.अभद्र व्यवहार.दावी पुग्ने.cover.jpg",
+      "extension": "jpg",
+      "size": 908466,
+      "updatedAt": "2026-11-28T21:38:32+05:45",
+      "uploadedAt": "2026-11-28T21:38:32+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn127.20830801.raya.jpg",
+      "folder": "images",
+      "name": "dn127.20830801.raya.jpg",
+      "extension": "jpg",
+      "size": 747825,
+      "updatedAt": "2026-11-28T21:38:32+05:45",
+      "uploadedAt": "2026-11-28T21:38:32+05:45",
       "remarks": ""
     },
     {
