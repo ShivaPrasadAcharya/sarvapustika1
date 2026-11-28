@@ -1,5 +1,5 @@
 window.RAYA_INDEX = {
-  "generatedAt": "2026-11-28T06:03:34.996336+00:00",
+  "generatedAt": "2026-11-28T09:36:00.645683+00:00",
   "files": [
     {
       "path": "Files/docs/20830613.42.02.kha-1.docx",
@@ -439,6 +439,36 @@ window.RAYA_INDEX = {
       "size": 881054,
       "updatedAt": "2026-11-27T09:51:51+05:45",
       "uploadedAt": "2026-11-27T09:51:51+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn142.20830811.मिलापत्र.अनलाईन ठगी.raya..jpg",
+      "folder": "images",
+      "name": "dn142.20830811.मिलापत्र.अनलाईन ठगी.raya..jpg",
+      "extension": "jpg",
+      "size": 543137,
+      "updatedAt": "2026-11-28T15:20:42+05:45",
+      "uploadedAt": "2026-11-28T15:20:42+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn143.20830811.cover.jpg",
+      "folder": "images",
+      "name": "dn143.20830811.cover.jpg",
+      "extension": "jpg",
+      "size": 1025993,
+      "updatedAt": "2026-11-28T15:20:42+05:45",
+      "uploadedAt": "2026-11-28T15:20:42+05:45",
+      "remarks": ""
+    },
+    {
+      "path": "Files/images/dn143.20830811.raya.jpg",
+      "folder": "images",
+      "name": "dn143.20830811.raya.jpg",
+      "extension": "jpg",
+      "size": 605292,
+      "updatedAt": "2026-11-28T15:20:42+05:45",
+      "uploadedAt": "2026-11-28T15:20:42+05:45",
       "remarks": ""
     },
     {
