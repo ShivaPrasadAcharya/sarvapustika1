@@ -241,38 +241,30 @@
     const entries = fileGroup.files, grouped = entries.length > 1, file = entries[0].file;
     const tr = document.createElement('tr');
     const sn = element('td','sn',String(index));
-    const folderCell = element('td','folder-cell');
-    const folderTags = element('div','folder-tags');
-    for (const folder of new Set(entries.map(entry => entry.file.folder))) {
-      const tag = element('span','folder-tag'); tag.append(icon('folder'),document.createTextNode(folder)); folderTags.append(tag);
-    }
-    folderCell.append(folderTags);
-    const nameCell = element('td','name-cell'); const nameGroup = element('div','file-name');
-    const types = [...new Map(entries.map(entry => [entry.file.extension, entry.file])).values()];
-    for (const typeFile of types) {
-      const type = element('span',`type-icon ${typeFile.folder}`,typeFile.extension.toUpperCase().slice(0,5));
-      type.setAttribute('aria-hidden','true'); nameGroup.append(type);
-    }
-    const titleGroup = element('div');titleGroup.append(element('span','file-title',grouped?fileGroup.name:file.name));
-    const variants = entries.map(variantLabel).join(' · ');
-    const latest = entries.map(entry => entry.file.updatedAt).filter(value => !Number.isNaN(new Date(value).valueOf())).sort().pop();
-    const groupMeta = [bytes(fileGroup.size), shortDate(latest)].filter(Boolean).join(' · ');
-    titleGroup.append(element('span','file-meta',grouped?[variants,groupMeta,fileGroup.directory].filter(Boolean).join(' · '):[sizeAndDate(file),fileGroup.directory].filter(Boolean).join(' · ')));
-    nameGroup.append(titleGroup);nameCell.append(nameGroup);
-    const linkCell=element('td','link-cell');
-    if (grouped) {
-      const linkList=element('div','file-link-list');
-      for (const entry of entries) {
-        const linkGroup=element('div','file-link-group');
-        const variant = element('span','variant-label',variantLabel(entry)), meta = sizeAndDate(entry.file);
-        if (meta) variant.append(element('span','variant-meta',` · ${meta}`));
-        linkGroup.append(variant);
-        const links=element('div','file-links');links.append(link(entry.file,'open'),link(entry.file,'download'));
-        linkGroup.append(links);linkList.append(linkGroup);
-      }
-      linkCell.append(linkList);
-    } else {
-      const links=element('div','file-links');links.append(link(file,'open'),link(file,'download'));linkCell.append(links);
+    const nameCell = element('td','name-cell');
+    const title = grouped ? fileGroup.name : file.name.replace(/\.[^.]+$/, '') || file.name;
+    nameCell.append(element('span','file-title',title));
+    const folders = new Set(entries.map(({file}) => file.path.split('/').slice(1,-1).join('/') || 'root'));
+    const folderLine = element('div','catalogue-folders');
+    folderLine.append(icon('folder'),document.createTextNode([...folders].join(' · ')));
+    nameCell.append(folderLine);
+
+    const linkCell = element('td','link-cell');
+    for (const entry of entries) {
+      const item = entry.file;
+      const date = item.uploadedAt ? shortDate(item.uploadedAt) : '';
+      const details = [bytes(item.size),date].filter(Boolean).join(' · ');
+      nameCell.append(element('div','file-meta',details));
+
+      const actions = element('div','file-links catalogue-actions');
+      const open = link(item,'open');
+      const label = grouped ? variantLabel(entry) : item.extension.toUpperCase();
+      open.replaceChildren(icon('eye'),element('span','',label || 'File'));
+      const download = link(item,'download');
+      download.replaceChildren(icon('download'));
+      download.title = download.getAttribute('aria-label');
+      actions.append(open,download);
+      linkCell.append(actions);
     }
     const remarksCell=element('td','remarks-cell');
     const remarkList=element('div','remark-list');
@@ -281,7 +273,7 @@
       if (text.trim()) remarkList.append(remarkElement(text));
     }
     if (remarkList.childElementCount) remarksCell.append(remarkList);
-    tr.append(sn,folderCell,nameCell,linkCell,remarksCell);return tr;
+    tr.append(sn,nameCell,linkCell,remarksCell);return tr;
   }
   function render() {
     state.filtered=getFiltered();const n=state.filtered.length,groups=groupFiles(state.filtered, $('sort').value),rowCount=groups.length,size=Number($('page-size').value),pages=Math.max(1,Math.ceil(rowCount/size));state.page=Math.min(state.page,pages);

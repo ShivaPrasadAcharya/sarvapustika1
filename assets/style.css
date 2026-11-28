@@ -27,3 +27,12 @@
 .variant-meta{font-weight:400;color:#8893a4}
 .remark-link{color:var(--blue);text-decoration:underline;overflow-wrap:anywhere;word-break:break-all}
 #preview-content video{width:100%;height:100%;max-height:100%;background:#000;object-fit:contain}
+
+/* Catalogue row details and file actions */
+.col-name{width:37%}
+.name-heading button+button{margin-inline-start:1em}
+.catalogue-folders{display:flex;align-items:center;gap:.4em;color:var(--muted);font-size:.8rem;margin:.25em 0}
+.catalogue-folders svg{width:1em;height:1em;flex:none}
+.catalogue-actions{flex-direction:row;align-items:center;gap:.5rem;margin-bottom:.25rem}
+.catalogue-actions .open-link{min-width:0;overflow-wrap:anywhere}
+.catalogue-actions .download-link{justify-content:center;min-width:28px;min-height:28px}
