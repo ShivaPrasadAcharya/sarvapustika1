@@ -275,15 +275,12 @@
       const links=element('div','file-links');links.append(link(file,'open'),link(file,'download'));linkCell.append(links);
     }
     const remarksCell=element('td','remarks-cell');
-    if (grouped) {
-      const remarkList=element('div','remark-list');
-      for (const entry of entries) {
-        const remarkEntry=element('div','remark-entry');
-        remarkEntry.append(element('span','remark-label',variantLabel(entry)),entry.file.remarks?remarkElement(entry.file.remarks):element('span','no-remark','—'));
-        remarkList.append(remarkEntry);
-      }
-      remarksCell.append(remarkList);
-    } else remarksCell.append(file.remarks?remarkElement(file.remarks):element('span','no-remark','—'));
+    const remarkList=element('div','remark-list');
+    for (const entry of entries) {
+      const text=entry.file.remarks;
+      if (text.trim()) remarkList.append(remarkElement(text));
+    }
+    if (remarkList.childElementCount) remarksCell.append(remarkList);
     tr.append(sn,folderCell,nameCell,linkCell,remarksCell);return tr;
   }
   function render() {
