@@ -1,5 +1,5 @@
 window.RAYA_INDEX = {
-  "generatedAt": "2026-11-28T11:48:59.613985+00:00",
+  "generatedAt": "2026-11-28T11:55:11.470066+00:00",
   "files": [
     {
       "path": "Files/docs/20830613.42.02.kha-1.docx",
@@ -242,13 +242,13 @@ window.RAYA_INDEX = {
       "remarks": ""
     },
     {
-      "path": "Files/images/dn129.29830802.अभद्र व्यवहार.दापु. raya.jpg",
+      "path": "Files/images/dn129.20830802.अभद्र व्यवहार.दापु. raya.jpg",
       "folder": "images",
-      "name": "dn129.29830802.अभद्र व्यवहार.दापु. raya.jpg",
+      "name": "dn129.20830802.अभद्र व्यवहार.दापु. raya.jpg",
       "extension": "jpg",
       "size": 544922,
-      "updatedAt": "2026-11-28T17:33:40+05:45",
-      "uploadedAt": "2026-11-28T17:33:40+05:45",
+      "updatedAt": "2026-11-28T17:39:56+05:45",
+      "uploadedAt": "2026-11-28T17:39:56+05:45",
       "remarks": ""
     },
     {
